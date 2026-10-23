@@ -116,7 +116,7 @@ CREATE TABLE cohorts (
 );
 
 -- Then the table with the foreign key second.
-CREATE TABLE albums (
+CREATE TABLE students (
   id SERIAL PRIMARY KEY,
   name text,
 -- The foreign key name is always {other_table_singular}_id
